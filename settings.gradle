@@ -1,2 +1,3 @@
 rootProject.name = 'DesignPatternsGradle'
+include 'src'
 
