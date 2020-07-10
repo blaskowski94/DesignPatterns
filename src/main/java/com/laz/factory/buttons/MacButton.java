@@ -10,8 +10,8 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
 /*
-  Concrete implementation of product
- */
+ Concrete implementation of product
+*/
 public class MacButton implements Button {
   JPanel panel = new JPanel();
   JFrame frame = new JFrame();
@@ -39,9 +39,10 @@ public class MacButton implements Button {
   @Override
   public void onClick() {
     button = new JButton("Exit");
-    button.addActionListener(e -> {
-      frame.setVisible(false);
-      System.exit(0);
-    });
+    button.addActionListener(
+        e -> {
+          frame.setVisible(false);
+          System.exit(0);
+        });
   }
 }

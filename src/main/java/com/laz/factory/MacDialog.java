@@ -4,8 +4,8 @@ import com.laz.factory.buttons.Button;
 import com.laz.factory.buttons.MacButton;
 
 /*
-  Concrete factory implementation
- */
+ Concrete factory implementation
+*/
 public class MacDialog extends Dialog {
 
   @Override

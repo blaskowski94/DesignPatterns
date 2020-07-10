@@ -1,8 +1,8 @@
 package com.laz.factory.buttons;
 
 /*
-  Common product interface
- */
+ Common product interface
+*/
 public interface Button {
 
   void render();

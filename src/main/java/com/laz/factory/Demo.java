@@ -1,9 +1,9 @@
 package com.laz.factory;
 
 /*
-  Sample client code using the factory. Concrete factory implementation is instantiated at run time
-  using abstract interface.
- */
+ Sample client code using the factory. Concrete factory implementation is instantiated at run time
+ using abstract interface.
+*/
 public class Demo {
   private static Dialog dialog;
 
@@ -11,7 +11,6 @@ public class Demo {
     configure();
     runBusinessLogic();
   }
-
 
   static void configure() {
     if (System.getProperty("os.name").equals("Mac OS X")) {

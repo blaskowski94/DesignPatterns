@@ -1,8 +1,5 @@
-package com.laz.factory.buttons;
+package com.laz.abstractfactory.buttons;
 
-/*
- Concrete implementation of product
-*/
 public class HtmlButton implements Button {
 
   @Override

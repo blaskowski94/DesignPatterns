@@ -4,8 +4,8 @@ import com.laz.factory.buttons.Button;
 import com.laz.factory.buttons.HtmlButton;
 
 /*
-  Concrete factory implementation
- */
+ Concrete factory implementation
+*/
 public class HtmlDialog extends Dialog {
 
   @Override
